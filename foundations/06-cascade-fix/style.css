@@ -24,7 +24,7 @@
   border-color: white;
 }
 
-.child {
+div.text.child {
   color: red;
   font-size: 14px;
 }
