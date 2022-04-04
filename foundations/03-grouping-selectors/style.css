@@ -2,3 +2,8 @@
     font-family: Helvetica, "Times New Roman", sans-serif;
     font-size: 28px;
 }
+
+.y-button {
+    background-color: #000000;
+    color: hsl(0, 0%, 100%);
+}
