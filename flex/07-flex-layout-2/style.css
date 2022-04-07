@@ -5,23 +5,55 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 72px;
   background: #eee;
   color: darkmagenta;
 }
 
 .sidebar {
-  width: 300px;
+  flex: 0 0 300px;
+  padding: 16px;
   background: royalblue;
 }
 
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  list-style-type: none;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.main {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card {
+  margin: 10px;
+  flex: 0 0 200px;
+  padding: 32px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
